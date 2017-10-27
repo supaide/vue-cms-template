@@ -1,0 +1,11 @@
+index:
+  alias: /
+  meta: 
+    index: true
+
+
+login:
+  meta:
+    login: false
+
+__sort: [index, home, my]
