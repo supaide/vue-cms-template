@@ -22,7 +22,7 @@ module.exports = {
     },
     "type": {
       "type": "list",
-      "message": "App or Admin",
+      "message": "App or Admin(cms, pc, etc...)",
       "choices": [
         {
           "name": "Project for app",
@@ -30,9 +30,19 @@ module.exports = {
           "short": "app"
         },
         {
-          "name": "Project for admin (cms, pc, etc...)",
+          "name": "Project for app use cdn",
+          "value": "capp",
+          "short": "app + cdn"
+        },
+        {
+          "name": "Project for admin",
           "value": "admin",
           "short": "admin"
+        },
+        {
+          "name": "Project for admin use cdn",
+          "value": "cadmin",
+          "short": "admin + cdn"
         }
       ]
     },
