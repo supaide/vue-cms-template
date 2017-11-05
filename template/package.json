@@ -39,6 +39,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-2": "^6.24.1",
+    "babel-plugin-component": "^0.10.1",
     "chalk": "^2.3.0",
     "compression": "^1.7.1",
     "css-inject-loader": "^1.0.0",
