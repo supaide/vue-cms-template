@@ -20,6 +20,22 @@ module.exports = {
       "type": "string",
       "message": "Author"
     },
+    "type": {
+      "type": "list",
+      "message": "App or Admin",
+      "choices": [
+        {
+          "name": "Project for app",
+          "value": "app",
+          "short": "app"
+        },
+        {
+          "name": "Project for admin (cms, pc, etc...)",
+          "value": "admin",
+          "short": "admin"
+        }
+      ]
+    },
     "build": {
       "type": "list",
       "message": "Vue build",

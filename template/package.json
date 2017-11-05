@@ -20,8 +20,13 @@
     "lru-cache": "^4.1.1",
     "object-assign": "^4.1.1",
     "spd-page-manage": "^1.0.0",
-    "spd-ui": "^1.0.0",
     "spd-webutil": "^1.0.0",
+    {{#if_eq type "admin"}}
+    "iview": "^2.6.0",
+    {{/if_eq}}
+    {{#if_eq type "app"}}
+    "mint-ui": "^2.2.9",
+    {{/if_eq}}
     "vue": "^2.5.2",
     "vue-server-renderer": "^2.5.2",
     "vuex": "^3.0.0"
