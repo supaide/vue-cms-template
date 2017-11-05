@@ -30,41 +30,15 @@ module.exports = {
           "short": "app"
         },
         {
-          "name": "Project for app use cdn",
-          "value": "capp",
-          "short": "app + cdn"
-        },
-        {
           "name": "Project for admin",
           "value": "admin",
           "short": "admin"
-        },
-        {
-          "name": "Project for admin use cdn",
-          "value": "cadmin",
-          "short": "admin + cdn"
         }
       ]
     },
-    "build": {
-      "type": "list",
-      "message": "Vue build",
-      "choices": [
-        {
-          "name": "Runtime + Compiler: recommended for most users",
-          "value": "standalone",
-          "short": "standalone"
-        },
-        {
-          "name": "Runtime-only: about 6KB lighter min+gzip, but templates (or any Vue-specific HTML) are ONLY allowed in .vue files - render functions are required elsewhere",
-          "value": "runtime",
-          "short": "runtime"
-        }
-      ]
-    },
-    "router": {
+    "dependency": {
       "type": "confirm",
-      "message": "Install vue-router?"
+      "message": "import Vue and UI with CDN ?"
     },
     "filters": {
       "src/router/**/*": "router" 
