@@ -48,13 +48,28 @@ module.exports = {
             options: vueConfig
           },
           {
+            loader: 'iview-loader',
+            options: {
+              prefix: false
+            }
+          },
+          /*
+          {
             loader: "css-inject-loader",
             options: {
               lang: 'less',
               cssFile: path.join(__dirname, '../src/style/theme.less')
             }
-          }
+          }*/
         ]
+      },
+      {
+        test: /iview\/.*?js$/,
+        loader: 'babel-loader'
+      },
+      {
+        test: /(spd-page-manage|spd-webutil)\/.*?js$/,
+        loader: 'babel-loader'
       },
       /*
       {
@@ -67,10 +82,10 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         //exclude: /node_modules/
-        include: [resolve('src'), resolve('node_modules/spd-page-manage/src'), resolve('node_modules/spd-webutil/src'), resolve('node_modules/spd-ui/src')]
+        include: [resolve('src'), resolve('node_modules/spd-page-manage/src'), resolve('node_modules/spd-webutil/src')]
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(gif|jpg|png|woff|svg|eot|ttf)$/,
         loader: 'url-loader',
         options: {
           limit: 10000,

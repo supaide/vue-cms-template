@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import {createApp} from './app'
-import {Installer} from 'spd-ui'
-Vue.use(Installer, window)
+import 'iview/dist/styles/iview.css'
 
 const { app, router} = createApp()
 

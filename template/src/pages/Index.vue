@@ -1,17 +1,15 @@
 <template>
   <div>
-    <b-form class="" label1="产品名" v-model="pname" placeholder="前端显示的产品名称" tips="字母或数字"></b-form>
-    <span>this is page index {{pname}}</span>
-    <b-form class="" label1="产品名" v-model="pname1" placeholder="前端显示的产品名称" tips="字母或数字"></b-form>
-    <cell>cell example</cell>
+    <Row>
+      <Col :md="12" :sm="24">col-12</Col>
+      <Col :md="12" :sm="24">col-12</Col>
+    </Row>
+    <span>this is page index </span>
   </div>
 </template>
 <script>
-import {BForm, Cell} from 'spd-ui'
 export default {
   components: {
-    BForm,
-    Cell
   },
   data () {
     return {

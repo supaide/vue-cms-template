@@ -1,12 +1,14 @@
 import Vue from 'vue'
-import {ValidateMixin} from 'spd-ui'                  
+//import {ValidateMixin} from 'spd-ui'                  
 import ViewRouter from 'spd-page-manage'
 import pageConfigs from './pages'
+import iView from 'iview'
 
 let store = {}
 
 Vue.use(ViewRouter, store)                                                    
-Vue.mixin(ValidateMixin)
+Vue.use(iView)
+//Vue.mixin(ValidateMixin)
 
 import App from './App.vue'
 export function createApp (context) {
