@@ -20,17 +20,10 @@ module.exports = {
       "type": "string",
       "message": "Author"
     },
-    "forApp": {
-      "type": "confirm",
-      "message": "Use mint-ui for App / iView for PC"
-    },
     "dependency": {
       "type": "confirm",
       "message": "import Vue and UI with CDN ?"
-    },
-    "filters": {
-      "template/src/test/a/**/*": "forApp" 
     }
   },
-  "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/supaide/vue-template"
+  "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/supaide/vue-cms-template"
 }
