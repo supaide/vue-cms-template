@@ -41,7 +41,7 @@ module.exports = {
       "message": "import Vue and UI with CDN ?"
     },
     "filters": {
-      "src/router/**/*": "router" 
+      "template/src/test/a/**/*": "name" 
     }
   },
   "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/supaide/vue-template"
