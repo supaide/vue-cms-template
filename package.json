@@ -1,23 +1,24 @@
 {
-  "name": "vue-template",
+  "name": "vue-cms-template",
   "version": "1.0.0",
-  "description": "vue template for spd",
+  "description": "vue template for cms",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supaide/vue-template.git"
+    "url": "git+https://github.com/supaide/vue-cms-template.git"
   },
   "keywords": [
     "vue",
     "template",
-    "supaide"
+    "cms",
+    "iview"
   ],
   "author": "cyij",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/supaide/vue-template/issues"
+    "url": "https://github.com/supaide/vue-cms-template/issues"
   },
-  "homepage": "https://github.com/supaide/vue-template#readme"
+  "homepage": "https://github.com/supaide/vue-cms-template#readme"
 }
