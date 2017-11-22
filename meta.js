@@ -29,11 +29,13 @@ module.exports = {
           "value": "totaly",
           "short": "totaly"
         },
+        /*
         {
           "name": "import by need",
           "value": "byneed",
           "short": "byneed"
         },
+        */
         {
           "name": "import by cdn",
           "value": "cdn",
