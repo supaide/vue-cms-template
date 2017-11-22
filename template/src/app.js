@@ -10,7 +10,7 @@ Vue.use(ViewRouter, store)
 {{#if_eq importByNeed "Yes"}}
 import iView from 'iview'
 Vue.use(iView)
-{{/if}}
+{{/if_eq}}
 
 import App from './App.vue'
 export function createApp (context) {
