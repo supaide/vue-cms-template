@@ -22,7 +22,7 @@ module.exports = {
     },
     "dependency": {
       "type": "list",
-      "message": "dependency mode",
+      "message": "vue and mint-ui dependency mode",
       "choices": [
         {
           "name": "totaly import",
