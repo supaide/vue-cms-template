@@ -7,10 +7,10 @@ import store from './store'
 
 Vue.use(ViewRouter, store)
 
-{{#and importByNeed}}
+{{#if_eq dependency "totaly"}}
 import iView from 'iview'
 Vue.use(iView)
-{{/and}}
+{{/if_eq}}
 
 import App from './App.vue'
 export function createApp (context) {

@@ -8,16 +8,16 @@
   </div>
 </template>
 <script>
-{{#importByNeed}}
+{{#if_eq dependency "byneed"}}
 import {Row, Col} from 'iview'
-{{/importByNeed}}
+{{/if_eq}}
 export default {
-  {{#importByNeed}}
+  {{#if_eq dependency "byneed"}}
   components: {
     Row,
     Col
   },
-  {{/importByNeed}}
+  {{/if_eq}}
   data () {
     return {
     }
