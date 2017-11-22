@@ -7,7 +7,7 @@ import store from './store'
 
 Vue.use(ViewRouter, store)
 
-{{#if !importByNeed}}
+{{#if_eq importByNeed "Yes"}}
 import iView from 'iview'
 Vue.use(iView)
 {{/if}}

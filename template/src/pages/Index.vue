@@ -8,16 +8,16 @@
   </div>
 </template>
 <script>
-{{#if importByNeed}}
+{{#importByNeed}}
 import {Row, Col} from 'iview'
-{{/if}}
+{{/importByNeed}}
 export default {
-  {{#if importByNeed}}
+  {{#importByNeed}}
   components: {
     Row,
     Col
   },
-  {{/if}}
+  {{/importByNeed}}
   data () {
     return {
     }
