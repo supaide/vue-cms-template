@@ -9,11 +9,12 @@
       "polyfill": false,
       "regenerator": true,
       "moduleName": "babel-runtime"
-    }],
+    }]{{#importByNeed}},
     ["import", {
       "libraryName": "iview",
       "libraryDirectory": "src/components"
     }]
+    {{/importByNeed}}
   ],
   "comments": false,
   "env": {

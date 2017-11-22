@@ -30,7 +30,7 @@ const addComponent = function (key, file) {
   let path0 = file.substr(srcPathLen)
   key = key.substr(pagePathLen+1).split(path.sep).join('__')
   //components[key] = "r => require.ensure([], () => r(require('." + path0 + "')), '"+key+"')"
-  components[key] = "() => import(/* webpackChunkName: \""+key+"\" */ '." + path0 + "')"
+  components[key] = "() => import(/* webpackChunkName: \""+key+"\" */ '." + path0.replace(/\\/g, '/') + "')"
   return key
 }
 

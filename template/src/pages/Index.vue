@@ -8,13 +8,18 @@
   </div>
 </template>
 <script>
+{{#if importByNeed}}
+import {Row, Col} from 'iview'
+{{/if}}
 export default {
+  {{#if importByNeed}}
   components: {
+    Row,
+    Col
   },
+  {{/if}}
   data () {
     return {
-      pname: '',
-      pname1: ''
     }
   }
 }
