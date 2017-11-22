@@ -9,12 +9,11 @@
       "polyfill": false,
       "regenerator": true,
       "moduleName": "babel-runtime"
-    }]{{#if_eq type "app"}},
-    ["component", [{
-        "libraryName": "mint-ui",
-        "style": true
+    }],
+    ["import", {
+      "libraryName": "iview",
+      "libraryDirectory": "src/components"
     }]
-    ]{{/if_eq}}
   ],
   "comments": false,
   "env": {
