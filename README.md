@@ -1,2 +1,2 @@
 # vue-template
-vue template for spd
+vue template for cms
