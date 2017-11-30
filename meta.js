@@ -5,6 +5,11 @@ module.exports = {
       "required": true,
       "message": "Project name"
     },
+    "title": {
+      "type": "string",
+      "required": true,
+      "message": "title of index.html"
+    },
     "description": {
       "type": "string",
       "required": false,
