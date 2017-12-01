@@ -47,10 +47,16 @@ exports.cssLoaders = function (options) {
     if (options.extract) {
       return ExtractTextPlugin.extract({
         use: loaders,
-        fallback: 'vue-style-loader'
+        fallback: {
+          loader: 'vue-style-loader',
+          options: {'ssrid': true}
+        }
       })
     } else {
-      return ['vue-style-loader'].concat(loaders)
+      return [{
+        loader: 'vue-style-loader',
+        options: {'ssrid': true}
+      }].concat(loaders)
     }
   }
 
