@@ -2,8 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import ViewRouter from 'spd-page-manage'
-import {http, event} from 'spd-webutil'
+import ViewRouter from 'vue-page-manage'
+import {http, event} from 'h5-webutil'
 
 import pageConfigs from './pages'
 import store from './store'

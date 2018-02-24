@@ -5,7 +5,7 @@ const config = require('../config')
 const chalk = require('chalk')
 const vueLoaderConfig = require('./vue-loader.conf')
 
-const createRouter = require('spd-page-manage/build/create-router')
+const createRouter = require('vue-page-manage/build/create-router')
 
 console.log(chalk.cyan('create routers ...\n'))
 createRouter()
@@ -56,7 +56,7 @@ module.exports = {
         loader: 'babel-loader'
       },
       {
-        test: /(spd-page-manage|spd-webutil)\/.*?js$/,
+        test: /(vue-page-manage|h5-webutil)\/.*?js$/,
         loader: 'babel-loader'
       },
       {
