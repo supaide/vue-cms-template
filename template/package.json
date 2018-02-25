@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "iview": "^2.9.2",
-    "vue-page-manage": "^1.0.0",
+    "vue-page-manage": "^1.0.1",
     "h5-webutil": "^1.0.0",
     "vue": "^2.5.13",
     "vuex": "^3.0.1"
